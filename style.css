@@ -1,0 +1,136 @@
+*{
+    font-size: 1em;
+   box-sizing: border-box;
+    
+    
+   
+}
+body{
+    margin: 0;
+}
+
+.header{
+    background:url(img/fond.jpg) center/cover fixed no-repeat;
+
+    height: 450px;
+    text-align: center;
+    color: white;
+   
+}
+nav{
+    background-color: rgba(255, 255, 255,0.2);
+    padding-top: 10px;
+    
+}
+nav a{
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 1.5em;
+    display: inline-block;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Kaushan Script';
+    margin-right: 50px;
+}
+span{
+    display: block;
+   
+}
+ header h1{
+    
+    font-size: 2em;
+}
+main h1{
+    text-align: center;
+    color: rgb(68, 80, 92);
+     font-family: 'Playfair Display', serif;
+}
+/*table*/
+table{
+    border-collapse: collapse;
+    height: 150px;
+    margin-bottom: 50px;
+    margin:20px auto;
+}
+.tr1{
+    background-color: rgb(196, 169, 222);
+   
+
+}
+.tr2{
+    background-color: rgb(242, 242, 242);
+}
+.tr4{
+    background-color: rgb(242, 242, 242);
+}
+th{
+    text-align: left;
+    font-family:  'Kaushan Script';
+    font-size: 1.6em;
+    color: white;
+}
+td{
+    border: 1px solid #ddd;
+    font-family: 'Kaushan Script';
+    
+}
+.td1{
+    width: 450px;
+    color: rgb(68, 80, 92);
+   
+}
+.td2{
+    width: 200px;
+    text-align: center;
+    color: rgb(68, 80, 92);
+   
+}
+.td3{
+    width: 450px;
+    text-align: center;
+    color: rgb(162, 83, 236);
+
+}
+/*formulaire*/
+fieldset{
+    height: 80px;
+    text-align: center;
+    margin: 20px 20px;
+    color: rgb(68, 80, 92);
+    padding-top: 30px;
+    font-family: 'Playfair Display', serif;
+
+}
+  .fiel1 input{
+  border-top: none;
+    border-left: none;
+    border-right: none;
+}
+input{
+    margin-right: 25px;
+}
+ select{
+    width: 1200px;
+    background-color: transparent;
+}
+.button{
+    text-align: center;
+    margin: 25px 0;
+}
+button{
+    background-color:rgb(138, 91, 196) ;
+    color:white;
+    width: 95px;
+    border: none;
+    height: 40px;
+    
+}
+.footer{
+    background-image: url(img/background_section.jpg);
+    background-size: cover;
+    background-position: center;
+}
+footer .div {
+ 
+    margin-top: 80px;
+    }
